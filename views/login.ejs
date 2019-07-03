@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>Log in</title>
+    <link href="/stylesheets/base.css" rel="stylesheet">
+    <link href="/stylesheets/login.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+    <div>
+        <a href="#" id="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="#" class="current">Home</a></li>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="/login">About</a></li>
+                <li><a href="#">Sign up</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<h2 id="admin"> Admin Log in</h2>
+<section class="one-third" id="login">
+    <form action="/dashboard" method="POST">
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit">Login</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
+    </form>
+</section>
+</body>
+</html>
+
