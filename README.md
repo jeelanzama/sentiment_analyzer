@@ -1,4 +1,4 @@
-A SOFTWARE FOR ANALYSIS OF THE SENTIMENT
+A SOFTWARE FOR SENTIMENT ANALYSIS
 
    A Web app levaraging MEAN stack to understand the sentiment of the review given by the user. It can be used in any application which emphasizes the importance of customer feedback analysis.
    
